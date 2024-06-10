@@ -11,7 +11,7 @@ class TestAuthor:
     def test_has_name(self):
         """Author is initialized with a name"""
         author_1 = Author("Carry Bradshaw")
-        author_2 = Author("Nathaniel Hawthorne")
+        author_2 = Author("Nathaniel Hthorne")
         magazine = Magazine("Vogue", "Fashion")
         Article(author_1, magazine, "How to wear a tutu with style")
         Article(author_2, magazine, "Dating life in NYC")
